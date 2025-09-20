@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import './App.css'
 import Main from './components/Main';
+import Form from './components/Form';
 
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
 
   return (
     <>
-      <Header /> 
-      <Main />
+      {/* <Header /> 
+      <Main /> */}
+      < Form />
     </>
   )
 }
